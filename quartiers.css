@@ -1,0 +1,49 @@
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #628ECB;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.quartier {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 80px;
+    color: #8AAEE0;
+}
+
+.quartier h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #628ECB;
+}
+
+.quartier div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 12px;
+}
+
+.quartier h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #628ECB;
+}
+
+.quartier p {
+    font-size: 18px;
+}
+
+.quartier img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.quartier img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}

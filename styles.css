@@ -1,0 +1,38 @@
+@import url("accueil.css");
+@import url("quartiers.css");
+@import url("restaurants.css");
+@import url("evenements.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #628ECB;
+    color: #395886;
+    padding: 10px 20px;
+    box-shadow: 0 0 20px #395886;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+nav li a {
+    list-style: none;
+    font-size: 24px;
+    font-weight: bold;    
+    text-decoration: none;
+    color: #395886;
+}
+
+nav img {
+    width: 80px;
+}
